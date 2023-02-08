@@ -1,0 +1,10 @@
+1-mkdir iti0
+2-cd iti-0
+  touch file1.txt
+  echo "hell9 all" > file1.txt
+3-cat file1.txt | tr "9" "o" > file2.txt
+4-rm file1.txt
+5-ls /var > listing.txt
+6-mv listing.txt list_output.txt
+7-nl list_output.txt > list_output_number.txt
+8-tail -n 5 list_output_number.txt
